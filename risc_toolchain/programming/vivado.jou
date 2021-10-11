@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Oct 11 18:35:56 2021
+# Process ID: 10840
+# Current directory: D:/PROJEKT/PICOBLAZE/risc_toolchain/programming
+# Command line: vivado.exe -mode tcl -source D:\PROJEKT\PICOBLAZE\risc_toolchain\programming/program.tcl
+# Log file: D:/PROJEKT/PICOBLAZE/risc_toolchain/programming/vivado.log
+# Journal file: D:/PROJEKT/PICOBLAZE/risc_toolchain/programming\vivado.jou
+#-----------------------------------------------------------
+source {D:\PROJEKT\PICOBLAZE\risc_toolchain\programming/program.tcl}

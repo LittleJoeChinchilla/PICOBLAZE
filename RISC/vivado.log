@@ -1,0 +1,117 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Oct 11 18:28:54 2021
+# Process ID: 14760
+# Current directory: D:/PROJEKT/PICOBLAZE/RISC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15424 D:\PROJEKT\PICOBLAZE\RISC\RISC.xpr
+# Log file: D:/PROJEKT/PICOBLAZE/RISC/vivado.log
+# Journal file: D:/PROJEKT/PICOBLAZE/RISC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only D:/PROJEKT/PICOBLAZE/RISC/RISC.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-229] Project 'RISC.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/PROJEKT/release/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/PROJEKT/release/ip_repo_v0.2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:risc:0.1'. The one found in IP location 'd:/PROJEKT/release/ip_repo_v0.2/risc_0.1' will take precedence over the same IP in location d:/PROJEKT/release/ip_repo/risc_0.1
+WARNING: [IP_Flow 19-2162] IP 'risc_0' is locked:
+* Project containing IP 'risc_0' is read-only.
+* IP definition 'risc_v0.1 (0.1)' for IP 'risc_0' (customized with software release 2016.1) has a different revision in the IP Catalog.
+* IP 'risc_0' contains one or more locked subcores.
+* IP definition 'risc_v0.1 (0.1)' relies on the following subcore(s) that were not found in the IP Catalog: xilinx.com:ip:jtag_axi:1.1, xilinx.com:ip:ila:6.1
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 888.754 ; gain = 152.082
+save_project_as project_2 D:/PROJEKT/PICOBLAZE/project_2 -force
+WARNING: [IP_Flow 19-2162] IP 'risc_jtag_axi4_lite' is locked:
+* IP definition 'JTAG to AXI Master (1.1)' for IP 'risc_jtag_axi4_lite' (customized with software release 2016.1) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_reset' is locked:
+* IP definition 'Processor System Reset (5.0)' for IP 'risc_reset' (customized with software release 2016.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_registers_memory' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'risc_registers_memory' (customized with software release 2016.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_clock_internal' is locked:
+* IP definition 'Clocking Wizard (5.3)' for IP 'risc_clock_internal' (customized with software release 2016.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_clock_external' is locked:
+* IP definition 'Clocking Wizard (5.3)' for IP 'risc_clock_external' (customized with software release 2016.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_alu_dsp' is locked:
+* IP definition 'DSP48 Macro (3.0)' for IP 'risc_alu_dsp' (customized with software release 2016.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_shared_memory_8K' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'risc_shared_memory_8K' (customized with software release 2016.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_vio' is locked:
+* IP definition 'VIO (Virtual Input/Output) (3.0)' for IP 'risc_vio' (customized with software release 2016.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_program_memory' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'risc_program_memory' (customized with software release 2016.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_ila' is locked:
+* IP definition 'ILA (Integrated Logic Analyzer) (6.1)' for IP 'risc_ila' (customized with software release 2016.1) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_data_memory' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'risc_data_memory' (customized with software release 2016.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_0' is locked:
+* IP definition 'risc_v0.1 (0.1)' for IP 'risc_0' (customized with software release 2016.1) has a different revision in the IP Catalog.
+* IP 'risc_0' contains one or more locked subcores.
+* IP definition 'risc_v0.1 (0.1)' relies on the following subcore(s) that were not found in the IP Catalog: xilinx.com:ip:jtag_axi:1.1, xilinx.com:ip:ila:6.1
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'risc_0' is locked:
+* IP definition 'risc_v0.1 (0.1)' for IP 'risc_0' (customized with software release 2016.1) has a different revision in the IP Catalog.
+* IP 'risc_0' contains one or more locked subcores.
+* IP definition 'risc_v0.1 (0.1)' relies on the following subcore(s) that were not found in the IP Catalog: xilinx.com:ip:jtag_axi:1.1, xilinx.com:ip:ila:6.1
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+report_ip_status -name ip_status 
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.4
+  **** Build date : Jan 23 2017-19:37:29
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210351A8251EA
+set_property PROGRAM.FILE {D:/PROJEKT/PICOBLAZE/project_2/project_2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {D:/PROJEKT/PICOBLAZE/project_2/project_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7z020_1] 0]
+current_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Oct 11 18:33:59 2021] Launched impl_1...
+Run output will be captured here: D:/PROJEKT/PICOBLAZE/project_2/project_2.runs/impl_1/runme.log
+set_property PROBES.FILE {D:/PROJEKT/PICOBLAZE/project_2/project_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROGRAM.FILE {D:/PROJEKT/PICOBLAZE/project_2/project_2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7z020_1] 0]
+program_hw_devices [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 JTAG AXI core(s).
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"processor/inst/risc_core_inst/risc_inst/risc_validation_core_inst"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/PROJEKT/PICOBLAZE/project_2/project_2.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property OUTPUT_VALUE 1 [get_hw_probes processor/inst/risc_core_inst/risc_inst/validation_reset -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"processor/inst/risc_core_inst/risc_inst/validation_stimulus_inst"}]]
+commit_hw_vio [get_hw_probes {processor/inst/risc_core_inst/risc_inst/validation_reset} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"processor/inst/risc_core_inst/risc_inst/validation_stimulus_inst"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes processor/inst/risc_core_inst/risc_inst/validation_reset -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"processor/inst/risc_core_inst/risc_inst/validation_stimulus_inst"}]]
+commit_hw_vio [get_hw_probes {processor/inst/risc_core_inst/risc_inst/validation_reset} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"processor/inst/risc_core_inst/risc_inst/validation_stimulus_inst"}]]
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 11 18:45:06 2021...

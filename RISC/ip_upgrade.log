@@ -1,0 +1,134 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Thu Oct 22 19:11:08 2020
+| Host         : DESKTOP-2340M74 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'risc_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of risc_0 (user.org:user:risc:0.1) from (Rev. 37) to (Rev. 74)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Oct 13 13:14:29 2020
+| Host         : DESKTOP-2340M74 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'risc_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of risc_0 (user.org:user:risc:0.1) from (Rev. 8) to (Rev. 37)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'risc_0'.
+
+
+-Upgrade has removed interface 'M_AXI_LITE'
+
+-Upgrade has removed interface 'irq'
+
+-Upgrade has added interface 'M_AXI_CLK' (xilinx.com:signal:clock:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'risc_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'irq'
+
+-Upgrade has removed port 'm_axi_lite_araddr'
+
+-Upgrade has removed port 'm_axi_lite_arprot'
+
+-Upgrade has removed port 'm_axi_lite_arready'
+
+-Upgrade has removed port 'm_axi_lite_arvalid'
+
+-Upgrade has removed port 'm_axi_lite_awaddr'
+
+-Upgrade has removed port 'm_axi_lite_awprot'
+
+-Upgrade has removed port 'm_axi_lite_awready'
+
+-Upgrade has removed port 'm_axi_lite_awvalid'
+
+-Upgrade has removed port 'm_axi_lite_bready'
+
+-Upgrade has removed port 'm_axi_lite_bresp'
+
+-Upgrade has removed port 'm_axi_lite_bvalid'
+
+-Upgrade has removed port 'm_axi_lite_rdata'
+
+-Upgrade has removed port 'm_axi_lite_rready'
+
+-Upgrade has removed port 'm_axi_lite_rresp'
+
+-Upgrade has removed port 'm_axi_lite_rvalid'
+
+-Upgrade has removed port 'm_axi_lite_wdata'
+
+-Upgrade has removed port 'm_axi_lite_wready'
+
+-Upgrade has removed port 'm_axi_lite_wstrb'
+
+-Upgrade has removed port 'm_axi_lite_wvalid'
+
+-Upgrade has removed port 'risc_clk'
+
+-Upgrade has removed port 'risc_resetn'
+
+-Upgrade has added port 'sw'
+
+
+4. Customization warnings
+-------------------------
+
+Parameter 'C_RISC_NATIVE_IF_EN' is no longer present on the upgraded IP 'risc_0', and cannot be set to 'false'
+
+
+5. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv user.org:user:risc:0.1 -user_name risc_0
+set_property -dict "\
+  CONFIG.C_RISC_DATA_MEMORY_SIZE 8K \
+  CONFIG.C_RISC_DATA_WIDTH 8 \
+  CONFIG.C_RISC_JTAG_EN TRUE \
+  CONFIG.C_RISC_NATIVE_I_REG 10 \
+  CONFIG.C_RISC_NATIVE_O_REG 10 \
+  CONFIG.C_RISC_NATIVE_T_REG 10 \
+  CONFIG.C_RISC_PROGRAM_MEMORY_SIZE 8K \
+  CONFIG.C_RISC_VALIDATION_EN TRUE \
+  CONFIG.C_RISC_ZYNQ_EN FALSE \
+  CONFIG.Component_Name risc_0 " [get_ips risc_0]
+
+

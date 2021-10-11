@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<probeData version="1" minor="2">
+  <probeset name="EDA_PROBESET" active="true">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="debug"/>
+        <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="led_OBUF[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="debug"/>
+        <Option Id="PROBE_PORT" value="1"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="16"/>
+      </probeOptions>
+      <nets>
+        <net name="debug_timer[15]"/>
+        <net name="debug_timer[14]"/>
+        <net name="debug_timer[13]"/>
+        <net name="debug_timer[12]"/>
+        <net name="debug_timer[11]"/>
+        <net name="debug_timer[10]"/>
+        <net name="debug_timer[9]"/>
+        <net name="debug_timer[8]"/>
+        <net name="debug_timer[7]"/>
+        <net name="debug_timer[6]"/>
+        <net name="debug_timer[5]"/>
+        <net name="debug_timer[4]"/>
+        <net name="debug_timer[3]"/>
+        <net name="debug_timer[2]"/>
+        <net name="debug_timer[1]"/>
+        <net name="debug_timer[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</probeData>

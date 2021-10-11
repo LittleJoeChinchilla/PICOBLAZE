@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Fri Oct 16 01:55:13 2020
+# Process ID: 11108
+# Current directory: D:/PROJEKT/PICOBLAZE/RISC/RISC.runs/risc_0_synth_1
+# Command line: vivado.exe -log risc_0.vds -mode batch -messageDb vivado.pb -notrace -source risc_0.tcl
+# Log file: D:/PROJEKT/PICOBLAZE/RISC/RISC.runs/risc_0_synth_1/risc_0.vds
+# Journal file: D:/PROJEKT/PICOBLAZE/RISC/RISC.runs/risc_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source risc_0.tcl -notrace

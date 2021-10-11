@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/PROJEKT/PICOBLAZE/RISC/RISC.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="53000fs"></ZoomStartTime>
+      <ZoomEndTime time="94001fs"></ZoomEndTime>
+      <Cursor1Time time="56000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="14" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_native_i" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_native_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_native_i[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_native_o" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_native_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_native_o[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_instruction_address" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_instruction_address[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_instruction_address[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_instruction_data_arg" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_instruction_data_arg[20:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_instruction_data_arg[20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_instruction_data_func3" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_instruction_data_func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_instruction_data_func3[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_instruction_data_func7" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_instruction_data_func7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_instruction_data_func7[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_instruction_data_opcode" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_instruction_data_opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_instruction_data_opcode[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_instruction_data_rd" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_instruction_data_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_instruction_data_rd[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_instruction_data_rs1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_instruction_data_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_instruction_data_rs1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_instruction_data_rs2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_instruction_data_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_instruction_data_rs2[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_alu_op_A" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_alu_op_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_alu_op_A[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_alu_op_B" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_alu_op_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_alu_op_B[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_alu_op_S" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_alu_op_S[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_alu_op_S[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="processor/inst/risc_core_inst/risc_inst/ila_alu_op_code" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">processor/inst/risc_core_inst/risc_inst/ila_alu_op_code[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_alu_op_code[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

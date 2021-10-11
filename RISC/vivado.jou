@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Oct 11 18:28:54 2021
+# Process ID: 14760
+# Current directory: D:/PROJEKT/PICOBLAZE/RISC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15424 D:\PROJEKT\PICOBLAZE\RISC\RISC.xpr
+# Log file: D:/PROJEKT/PICOBLAZE/RISC/vivado.log
+# Journal file: D:/PROJEKT/PICOBLAZE/RISC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only D:/PROJEKT/PICOBLAZE/RISC/RISC.xpr
+save_project_as project_2 D:/PROJEKT/PICOBLAZE/project_2 -force
+report_ip_status -name ip_status 
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/PROJEKT/PICOBLAZE/project_2/project_2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {D:/PROJEKT/PICOBLAZE/project_2/project_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7z020_1] 0]
+current_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/PROJEKT/PICOBLAZE/project_2/project_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROGRAM.FILE {D:/PROJEKT/PICOBLAZE/project_2/project_2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7z020_1] 0]
+program_hw_devices [lindex [get_hw_devices xc7z020_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"processor/inst/risc_core_inst/risc_inst/risc_validation_core_inst"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes processor/inst/risc_core_inst/risc_inst/validation_reset -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"processor/inst/risc_core_inst/risc_inst/validation_stimulus_inst"}]]
+commit_hw_vio [get_hw_probes {processor/inst/risc_core_inst/risc_inst/validation_reset} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"processor/inst/risc_core_inst/risc_inst/validation_stimulus_inst"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes processor/inst/risc_core_inst/risc_inst/validation_reset -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"processor/inst/risc_core_inst/risc_inst/validation_stimulus_inst"}]]
+commit_hw_vio [get_hw_probes {processor/inst/risc_core_inst/risc_inst/validation_reset} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"processor/inst/risc_core_inst/risc_inst/validation_stimulus_inst"}]]

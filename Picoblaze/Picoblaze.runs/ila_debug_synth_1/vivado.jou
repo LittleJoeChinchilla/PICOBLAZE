@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sun Sep 20 13:51:44 2020
+# Process ID: 15452
+# Current directory: D:/PROJEKT/PICOBLAZE/Picoblaze/Picoblaze.runs/ila_debug_synth_1
+# Command line: vivado.exe -log ila_debug.vds -mode batch -messageDb vivado.pb -notrace -source ila_debug.tcl
+# Log file: D:/PROJEKT/PICOBLAZE/Picoblaze/Picoblaze.runs/ila_debug_synth_1/ila_debug.vds
+# Journal file: D:/PROJEKT/PICOBLAZE/Picoblaze/Picoblaze.runs/ila_debug_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ila_debug.tcl -notrace

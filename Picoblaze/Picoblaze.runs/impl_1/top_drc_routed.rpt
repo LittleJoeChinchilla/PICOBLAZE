@@ -1,0 +1,370 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Sun Sep 20 21:27:13 2020
+| Host         : DESKTOP-2340M74 running 64-bit major release  (build 9200)
+| Command      : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb
+| Design       : top
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 68
+
+2. REPORT DETAILS
+-----------------
+PDCN-1569#1 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell processor/alu_decode1_lut/LUT5 (in processor/alu_decode1_lut macro) is not included in the LUT equation: 'O5=((~A3)*A4*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#2 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell processor/data_path_loop[0].arith_logical_lut/LUT5 (in processor/data_path_loop[0].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#3 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell processor/data_path_loop[1].arith_logical_lut/LUT5 (in processor/data_path_loop[1].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#4 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell processor/data_path_loop[2].arith_logical_lut/LUT5 (in processor/data_path_loop[2].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#5 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell processor/data_path_loop[3].arith_logical_lut/LUT5 (in processor/data_path_loop[3].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#6 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell processor/data_path_loop[4].arith_logical_lut/LUT5 (in processor/data_path_loop[4].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#7 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell processor/data_path_loop[5].arith_logical_lut/LUT5 (in processor/data_path_loop[5].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#8 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell processor/data_path_loop[6].arith_logical_lut/LUT5 (in processor/data_path_loop[6].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#9 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell processor/data_path_loop[7].arith_logical_lut/LUT5 (in processor/data_path_loop[7].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#10 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell processor/use_zero_flag_lut/LUT5 (in processor/use_zero_flag_lut macro) is not included in the LUT equation: 'O5=(A3*(~A4))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#11 Warning
+LUT equation term check  
+Used physical LUT pin 'A2' of cell processor/alu_decode1_lut/LUT5 (in processor/alu_decode1_lut macro) is not included in the LUT equation: 'O5=((~A3)*A4*(~A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#12 Warning
+LUT equation term check  
+Used physical LUT pin 'A2' of cell processor/carry_flag_lut/LUT5 (in processor/carry_flag_lut macro) is not included in the LUT equation: 'O5=(A1*A3*A5)+(A1*(~A3)*(~A4)*A5)+((~A1)*A3*A4*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#13 Warning
+LUT equation term check  
+Used physical LUT pin 'A2' of cell processor/register_enable_lut/LUT5 (in processor/register_enable_lut macro) is not included in the LUT equation: 'O5=(A1*A3*A5)+(A1*(~A3)*(~A4)*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#14 Warning
+LUT equation term check  
+Used physical LUT pin 'A2' of cell processor/use_zero_flag_lut/LUT5 (in processor/use_zero_flag_lut macro) is not included in the LUT equation: 'O5=(A3*(~A4))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#15 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/address_loop[0].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[0].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#16 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/address_loop[10].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[10].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#17 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/address_loop[2].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[2].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#18 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/address_loop[4].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[4].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#19 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/address_loop[6].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[6].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#20 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/address_loop[8].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[8].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#21 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[0].arith_logical_lut/LUT5 (in processor/data_path_loop[0].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#22 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[0].lsb_shift_rotate.shift_rotate_lut/LUT5 (in processor/data_path_loop[0].lsb_shift_rotate.shift_rotate_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#23 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[0].output_data.sy_kk_mux_lut/LUT5 (in processor/data_path_loop[0].output_data.sy_kk_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#24 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[0].second_operand.out_port_lut/LUT5 (in processor/data_path_loop[0].second_operand.out_port_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#25 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[1].arith_logical_lut/LUT5 (in processor/data_path_loop[1].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#26 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[2].arith_logical_lut/LUT5 (in processor/data_path_loop[2].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#27 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[2].mid_shift_rotate.shift_rotate_lut/LUT5 (in processor/data_path_loop[2].mid_shift_rotate.shift_rotate_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#28 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[2].output_data.sy_kk_mux_lut/LUT5 (in processor/data_path_loop[2].output_data.sy_kk_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#29 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[2].second_operand.out_port_lut/LUT5 (in processor/data_path_loop[2].second_operand.out_port_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#30 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[3].arith_logical_lut/LUT5 (in processor/data_path_loop[3].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#31 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[4].arith_logical_lut/LUT5 (in processor/data_path_loop[4].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#32 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[4].mid_shift_rotate.shift_rotate_lut/LUT5 (in processor/data_path_loop[4].mid_shift_rotate.shift_rotate_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#33 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[4].output_data.sy_kk_mux_lut/LUT5 (in processor/data_path_loop[4].output_data.sy_kk_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#34 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[4].second_operand.out_port_lut/LUT5 (in processor/data_path_loop[4].second_operand.out_port_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#35 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[5].arith_logical_lut/LUT5 (in processor/data_path_loop[5].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#36 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[6].arith_logical_lut/LUT5 (in processor/data_path_loop[6].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#37 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[6].msb_shift_rotate.shift_rotate_lut/LUT5 (in processor/data_path_loop[6].msb_shift_rotate.shift_rotate_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#38 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[6].output_data.sy_kk_mux_lut/LUT5 (in processor/data_path_loop[6].output_data.sy_kk_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#39 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[6].second_operand.out_port_lut/LUT5 (in processor/data_path_loop[6].second_operand.out_port_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#40 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell processor/data_path_loop[7].arith_logical_lut/LUT5 (in processor/data_path_loop[7].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#41 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/address_loop[0].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[0].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#42 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/address_loop[10].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[10].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#43 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/address_loop[2].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[2].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#44 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/address_loop[4].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[4].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#45 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/address_loop[6].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[6].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#46 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/address_loop[8].output_data.pc_vector_mux_lut/LUT5 (in processor/address_loop[8].output_data.pc_vector_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#47 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[0].arith_logical_lut/LUT5 (in processor/data_path_loop[0].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#48 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[0].lsb_shift_rotate.shift_rotate_lut/LUT5 (in processor/data_path_loop[0].lsb_shift_rotate.shift_rotate_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#49 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[0].output_data.sy_kk_mux_lut/LUT5 (in processor/data_path_loop[0].output_data.sy_kk_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#50 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[0].second_operand.out_port_lut/LUT5 (in processor/data_path_loop[0].second_operand.out_port_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#51 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[1].arith_logical_lut/LUT5 (in processor/data_path_loop[1].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#52 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[2].arith_logical_lut/LUT5 (in processor/data_path_loop[2].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#53 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[2].mid_shift_rotate.shift_rotate_lut/LUT5 (in processor/data_path_loop[2].mid_shift_rotate.shift_rotate_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#54 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[2].output_data.sy_kk_mux_lut/LUT5 (in processor/data_path_loop[2].output_data.sy_kk_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#55 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[2].second_operand.out_port_lut/LUT5 (in processor/data_path_loop[2].second_operand.out_port_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#56 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[3].arith_logical_lut/LUT5 (in processor/data_path_loop[3].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#57 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[4].arith_logical_lut/LUT5 (in processor/data_path_loop[4].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#58 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[4].mid_shift_rotate.shift_rotate_lut/LUT5 (in processor/data_path_loop[4].mid_shift_rotate.shift_rotate_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#59 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[4].output_data.sy_kk_mux_lut/LUT5 (in processor/data_path_loop[4].output_data.sy_kk_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#60 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[4].second_operand.out_port_lut/LUT5 (in processor/data_path_loop[4].second_operand.out_port_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#61 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[5].arith_logical_lut/LUT5 (in processor/data_path_loop[5].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#62 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[6].arith_logical_lut/LUT5 (in processor/data_path_loop[6].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#63 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[6].msb_shift_rotate.shift_rotate_lut/LUT5 (in processor/data_path_loop[6].msb_shift_rotate.shift_rotate_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#64 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[6].output_data.sy_kk_mux_lut/LUT5 (in processor/data_path_loop[6].output_data.sy_kk_mux_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#65 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[6].second_operand.out_port_lut/LUT5 (in processor/data_path_loop[6].second_operand.out_port_lut macro) is not included in the LUT equation: 'O5=(A1*A2)+(A1*(~A2)*(~A5))+((~A1)*A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#66 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell processor/data_path_loop[7].arith_logical_lut/LUT5 (in processor/data_path_loop[7].arith_logical_lut macro) is not included in the LUT equation: 'O5=(A2*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#67 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell processor/use_zero_flag_lut/LUT5 (in processor/use_zero_flag_lut macro) is not included in the LUT equation: 'O5=(A3*(~A4))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

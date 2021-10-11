@@ -1,0 +1,7 @@
+Running: xsim.dir/kcpsm6_behav/xsimk.exe -simmode gui -wdb kcpsm6_behav.wdb -simrunnum 0 -socket 62448
+Design successfully loaded
+Design Loading Memory Usage: 22816 KB (Peak: 22816 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 24024 KB (Peak: 24024 KB)
+Simulation CPU Usage: 62 ms

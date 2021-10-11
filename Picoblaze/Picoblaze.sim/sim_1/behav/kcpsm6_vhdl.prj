@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../KCPSM6/KCPSM6_Release9_30Sept14/kcpsm6.vhd"
+
+# Do not sort compile order
+nosort

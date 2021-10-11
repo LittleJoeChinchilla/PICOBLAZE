@@ -1,0 +1,10 @@
+set_property SRC_FILE_INFO {cfile:d:/PROJEKT/PICOBLAZE/RISC/RISC.srcs/sources_1/ip/risc_0/src/risc_clock_external/risc_clock_external.xdc rfile:../../../RISC.srcs/sources_1/ip/risc_0/src/risc_clock_external/risc_clock_external.xdc id:1 order:EARLY scoped_inst:inst/risc_core_inst/risc_inst/risc_clocking_inst/clock_inst/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/PROJEKT/PICOBLAZE/RISC/RISC.runs/risc_0_synth_1/dont_touch.xdc rfile:../dont_touch.xdc id:2} [current_design]
+set_property src_info {type:SCOPED_XDC file:1 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports sys_clk]] 0.08
+set_property src_info {type:XDC file:2 line:17 export:INPUT save:INPUT read:READ} [current_design]
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==risc_clock_internal || ORIG_REF_NAME==risc_clock_internal}]
+set_property src_info {type:XDC file:2 line:26 export:INPUT save:INPUT read:READ} [current_design]
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==risc_shared_memory_8K || ORIG_REF_NAME==risc_shared_memory_8K}]
+set_property src_info {type:XDC file:2 line:49 export:INPUT save:INPUT read:READ} [current_design]
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==risc_clock_internal || ORIG_REF_NAME==risc_clock_internal}] {/inst }]/inst ]]

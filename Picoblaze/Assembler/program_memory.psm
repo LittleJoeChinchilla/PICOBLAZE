@@ -1,0 +1,45 @@
+
+CONSTANT	Leds,			00
+CONSTANT 	DebugTimer0, 	01
+CONSTANT 	DebugTimer1, 	02
+
+CONSTANT	Switch,			00
+
+start: 
+		LOAD 	s0, 	00000000'b		;zmienna timer[7:0]
+		LOAD 	s1, 	00000000'b		;zmienna timer[15:8]
+		
+		LOAD	s2,		00000000'b		;zmienna compare
+		LOAD	s3,		00000000'b		;wartość PWM
+loop:
+		INPUT	s2, 	Switch			;załaduj wartość switchy 
+										;do zmiennej compare
+if:
+		COMPARE	s2,		s1				;jeśli compare > timer
+		JUMP	NC, 	pwm_high		
+pwm_low:
+		LOAD	s3,		00000000'b		;wtedy ustaw stan niski na PWM
+		JUMP	end_if
+										;jeśli nie
+pwm_high:
+		LOAD	s3,		00000001'b		;wtedy ustaw stan wysoki na PWM
+		JUMP	end_if
+end_if:
+		OUTPUT 	s3, 	Leds
+		OUTPUT 	s0, 	DebugTimer0
+		OUTPUT 	s1, 	DebugTimer1
+				
+		ADD		s0,		01				;większ timer
+		ADDCY	s1,		00				;przenieś wartość MSB
+										;do wyższych bitów timera
+		AND		s1,		00001111'b		;usuń 4 najstarsze bity z licznika
+		
+		JUMP loop
+		
+		
+		
+		
+		
+		
+		
+		
